@@ -434,7 +434,7 @@ public class MazeEscape_Final extends JFrame implements KeyListener {
 						UD_Break = false;
 						for (int i = 0; i < feature_Block.length; i++) {
 							ImageIcon Block_ic = new ImageIcon("MazeEscape_img/Map/feature/"+(String)feature_Block[i][2]);
-							if(	((int)feature_Block[i][1] <= Char_ax.getBounds().y+player_Ic_Y) &&
+							if(	((int)feature_Block[i][1]  <= Char_ax.getBounds().y+player_Ic_Y) &&
 								((int)feature_Block[i][1]+5 >= Char_ax.getBounds().y+player_Ic_Y)&&
 								((int)feature_Block[i][0]+10 < Char_ax.getBounds().x) &&
 								((int)feature_Block[i][0]+Block_ic.getIconWidth() >= Char_ax.getBounds().x)){
